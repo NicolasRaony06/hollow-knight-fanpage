@@ -130,7 +130,7 @@ section {
 .apresentation-bar {
     width: 827px;
     height: 6.27px;
-    background-color: rgb(217, 217, 217);;
+    background-color: rgb(217, 217, 217);
 }
 
 .first {
@@ -203,6 +203,49 @@ section {
 .objetivo img{
     width: 276px;
     border-radius: 17px;
+}
+
+.indice{
+    margin-top: 30px;
+    margin-bottom: 85px;
+}
+
+.indice h3 {
+    margin: 0 20px 20px;
+}
+
+.indice a {
+    color: white;
+    text-decoration: none;
+}
+
+.indice ul li{
+    font-family: "Inter", sans-serif;
+    font-size: 0.9375rem;
+    font-weight: 300;
+}
+
+.indice > div {
+    width: 543px;
+    flex-direction: column;
+    background-color: rgba(12, 14, 28, 0.4);
+    border-radius: 15px;
+    padding: 15px 0 70px 0;
+}
+
+.list-pag {
+    flex-direction: column;
+    row-gap: 20px;
+    font-family: "Inter", sans-serif;
+    font-size: 1.125rem;
+    font-weight: 350;
+    margin: 0 50px;
+}
+
+.indice-bar {
+    width: 558px;
+    height: 5px;
+    background-color: rgb(217, 217, 217);
 }
 
 .row p {
