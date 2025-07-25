@@ -221,12 +221,17 @@ section {
     object-fit: contain;
 }
 
-.historia-conteudo{
+#historia {
+    padding-right: 20px;
+    margin-bottom: 35px;
+}
+
+#historia .conteudo{
     column-gap: 30px;
     margin-left: 20px;
 }
 
-.historia-texto {
+#historia .texto {
     width: 380px;
     flex-direction: column;
     text-align: justify;
@@ -234,61 +239,45 @@ section {
     font-weight: 300;
 }
 
-.historia-imagem{
-    width: 290px;
+#historia .imagem{
+    width: 310px;
     flex-direction: column;
+    margin-top: 15px;
 }
 
-.historia-imagem img {
+#historia .imagem img {
     width: 100%;
     height: 280px;
     border-radius: 10px;
 }
 
-.historia-imagem p {
+#historia .imagem p {
     font-family: "Inter", sans-serif;
     font-weight: 300;
 }
 
-table {
-    width: 590px;
-    background-color: rgba(0, 0, 0, 0.2);
-    align-self: center;
-    border-collapse: collapse;
-    font-family: "Inter", sans-serif;
-    font-weight: 250;
-    font-size: 0.8125rem;
+.section-bar {
+    width: 600px;
 }
 
-table tr {
-    border-bottom: 1px solid white;
+.section-bar, .personagens-bar {
+    height: 5px;
+    background-color: rgb(217, 217, 217);
+    border: 0;
+    border-radius: 2px;
 }
 
-table th {
-    font-weight: 500;
-    border-right: 1px solid white;
-    padding: 0 10px 0 10px;
-    text-align: center;
+#personagens-principais .subtopico {
+    margin-bottom: 20px;
 }
 
-table th:last-child {
-    border-right: 0;
-    text-align: center;
+.personagens-bar {
+    width: 520px;
 }
 
-table td {
-    border-right: 1px solid white;
-    text-align: center;
-}
-
-table td:last-child {
-    border-right: 0;
-    text-align: center;
-}
-
-/*personagem card*/
 .personagem{
-    width: 100%;
+    width: 95%;
+    margin: 40px 20px 50px;
     background-color: rgba(0, 0, 0, 0.1);
     font-family: "Inter", sans-serif;
 }
