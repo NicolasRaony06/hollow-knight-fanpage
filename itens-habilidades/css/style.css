@@ -6,6 +6,8 @@
     box-sizing: border-box;
 }
 
+
+
 body {
     display: flex;
     flex-direction: column;
@@ -258,12 +260,12 @@ section {
     font-weight: 450;
 }
 
-.amuletos, .masc-vess-paleore, .feiticos {
+.amuletos, .masc-vess-paleore, .feiticos, .artes-ferrao {
     flex-direction: column;
     row-gap: 15px;
 }
 
-.amuletos img, .masc-vess-paleore img, .feiticos img {
+.amuletos img, .masc-vess-paleore img, .feiticos img, .artes-ferrao img {
     width: 22px;
     border-radius: 5px;
 }
@@ -290,6 +292,10 @@ section {
 .feiticos img {
     width: 30px;
     border-radius: 5px;
+}
+
+.artes-ferrao .lateral-bar {
+    height: 56px;
 }
 
 .inter-section-bar {
