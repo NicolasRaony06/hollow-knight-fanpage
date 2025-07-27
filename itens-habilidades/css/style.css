@@ -6,8 +6,6 @@
     box-sizing: border-box;
 }
 
-
-
 body {
     display: flex;
     flex-direction: column;
@@ -360,8 +358,7 @@ table a {
 }
 
 .cards {
-    justify-content: center;
-    position: relative;
+    margin: auto;
 }
 
 .card {
