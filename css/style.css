@@ -179,53 +179,53 @@ section {
     text-align: justify;
 }
 
-.introducao {
+#introducao {
     margin-top: 55px;
     margin-bottom: 35px;
 }
 
-.introducao img {
+#introducao img {
     width: 297px;
     border-radius: 17px;
 }
 
-.objetivo {
+#objetivo {
     margin-top: 35px;
     margin-bottom: 35px;
 }
 
-.objetivo div {
+#objetivo div {
     width: 750px;
     align-items: center;
     align-self: flex-end;
 }
 
-.objetivo img{
+#objetivo img {
     width: 276px;
     border-radius: 17px;
 }
 
-.indice{
+#indice {
     margin-top: 30px;
     margin-bottom: 85px;
 }
 
-.indice h3 {
+#indice h3 {
     margin: 0 20px 20px;
 }
 
-.indice a {
+#indice a {
     color: white;
     text-decoration: none;
 }
 
-.indice ul li{
+#indice ul li{
     font-family: "Inter", sans-serif;
     font-size: 0.9375rem;
     font-weight: 300;
 }
 
-.indice > div {
+#indice > div {
     width: 543px;
     flex-direction: column;
     background-color: rgba(12, 14, 28, 0.4);
@@ -248,7 +248,7 @@ section {
     background-color: rgb(217, 217, 217);
 }
 
-.feedback {
+#feedback {
     margin-top: 50px;
     margin-bottom: 100px;
 }
@@ -272,7 +272,7 @@ input {
     height: 35px;
     border-radius: 5px;
     border: 0;
-    box-shadow: 1px 2px 2px 1px  rgba(0, 0, 0, 0.25);
+    box-shadow: 1px 2px 3px 2px  rgba(0, 0, 0, 0.25);
 }
 
 textarea {
@@ -282,7 +282,7 @@ textarea {
     min-height: 180px;
     border-radius: 5px;
     border: 0;
-    box-shadow: 1px 2px 2px 1px  rgba(0, 0, 0, 0.25);
+    box-shadow: 1px 2px 3px 2px  rgba(0, 0, 0, 0.25);
 }
 
 button {
@@ -294,6 +294,10 @@ button {
     box-shadow: 1px 2px 2px 1px  rgba(0, 0, 0, 0.25);
     font-family: "Inter", sans-serif;
     font-weight: 500;
+}
+
+button:hover {
+    box-shadow: 1px 2px 4px 4px  rgba(0, 0, 0, 0.40);
 }
 
 .column {
