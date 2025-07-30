@@ -87,6 +87,8 @@ main {
     background-color: rgba(255, 255, 255, 0.95); 
     border-radius: 8px;
     justify-content: center; 
+    position: sticky;
+    top: 10px;
 }
 
 .nav-inter ul {
@@ -392,4 +394,370 @@ footer > div {
 .row {
     display: flex;
     width: 100%;
+}
+
+@media (max-width: 920px) {
+    header{
+        width: 720px;
+        height: 165px;
+    }
+
+    .headerbar {
+        width: 760px;
+    }
+
+    main {
+        width: 720px;
+    }
+
+    section{
+        padding: 0;
+    }
+
+    .apresentation {
+        row-gap: 45px;
+    }
+
+    .apresentation img {
+        width: 300px;
+    }
+
+    .apresentation-bar {
+        width: 680px;
+        border-radius: 5px;
+    }
+
+    .first {
+        width: 95%;
+        column-gap: 10px;
+        justify-content: center;
+    }
+
+    #introducao > div, #objetivo > div {
+        justify-content: center;
+    }
+
+    #introducao p, #objetivo p {
+        width: 400px;
+    }
+
+    #introducao img {
+        width: 220px;
+        height: 140px;
+        
+    }
+
+    #objetivo img {
+        width: 220px;
+        align-self: flex-start;
+    }
+
+    #objetivo p {
+        margin-top: 0;
+    }
+
+    #indice {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    footer {
+        width: 720px;
+        padding: 10px 25px 10px 25px;
+    }
+
+    .logos {
+        margin-left: 60px;
+        margin-right: 150px;
+    }
+}
+
+@media (max-width: 720px) {
+    header{
+        width: 530px;
+        height: 165px;
+    }
+
+    header h1 {
+    font-size: 2.275rem; 
+    }
+
+    header h2 {
+        font-size: 1.775rem;
+    }
+
+    header h1, h2 {
+        margin: 0;
+        height: 30px;
+    }
+
+    .page-icon {
+        display: none;
+    }
+
+    .developer-logo {
+        width: 80px;
+    }
+
+    .headerbar {
+        width: 545px;
+    }
+
+    main {
+        width: 530px;
+    }
+
+    section{
+        padding: 0;
+    }
+
+    .apresentation {
+        row-gap: 45px;
+    }
+    
+    .apresentation p {
+        width: 290px;
+        margin: 0;
+    }
+
+    .apresentation .tittle {
+        width: 100%;
+    }
+
+    .apresentation > div:last-child {
+        justify-content: center;
+    }
+
+    .apresentation-bar {
+        width: 480px;
+        border-radius: 5px;
+    }
+
+    .first {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .first h1 {
+        font-size: 3.9125rem;
+    }
+
+    .first h2 {
+        font-size: 2.35rem;
+    }
+
+    .first > div:last-child{
+        display: none;
+    }
+
+    #introducao > div, #objetivo > div {
+        width: 100%;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+
+    #introducao p, #objetivo p {
+        width: 470px;
+        margin: 0;
+    }
+
+    #introducao img {
+        width: 300px;
+        height: 180px;
+    }
+
+    #objetivo img{
+        width: 300px;
+        align-self: center;
+    }
+
+    #indice {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    #indice > div {
+        width: 500px;
+    }
+
+    .indice-bar {
+        width: 480px;
+        border-radius: 10px;
+        border: 0;
+    }
+
+    form > div:first-child {
+        row-gap: 10px;
+    }
+
+    textarea {
+        max-width: 265px;
+        min-width: 265px;
+    }
+
+    footer {
+        width: 580px;
+        padding: 10px 25px 10px 25px;
+    }
+
+    footer > div {
+        justify-content: center;
+        column-gap: 80px;
+    }
+
+    .logos {
+        display: none;
+    }
+}
+
+@media (max-width: 500px){
+    header{
+        width: 420px;
+        height: 165px;
+    }
+
+    header h1 {
+    font-size: 2.275rem; 
+    }
+
+    header h2 {
+        font-size: 1.775rem;
+    }
+
+    header h1, h2 {
+        margin: 0;
+        height: 30px;
+    }
+
+    .page-icon {
+        display: none;
+    }
+
+    .developer-logo {
+        width: 80px;
+    }
+
+    .headerbar {
+        width: 435px;
+    }
+
+    .nav-inter {
+        width: 370px;
+    }
+
+    main {
+        width: 420px;
+    }
+
+    section{
+        padding: 0;
+    }
+
+    .apresentation {
+        row-gap: 45px;
+    }
+    
+    .apresentation p {
+        width: 290px;
+        margin: 0;
+    }
+
+    .apresentation .tittle {
+        width: 100%;
+    }
+
+    .apresentation > div:last-child {
+        justify-content: center;
+    }
+
+    .apresentation-bar {
+        width: 390px;
+        border-radius: 5px;
+    }
+
+    .first {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .first h1 {
+        font-size: 3.9125rem;
+    }
+
+    .first h2 {
+        font-size: 2.35rem;
+    }
+
+    .first > div:last-child{
+        display: none;
+    }
+
+    #introducao > div, #objetivo > div {
+        width: 100%;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+
+    #introducao p, #objetivo p {
+        width: 390px;
+        margin: 0;
+    }
+
+    #introducao img {
+        width: 300px;
+        height: 180px;
+    }
+
+    #objetivo img{
+        width: 300px;
+        align-self: center;
+    }
+
+    #indice {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    #indice > div {
+        width: 400px;
+    }
+
+    .indice-bar {
+        width: 380px;
+        border-radius: 10px;
+        border: 0;
+    }
+
+    form > div:first-child {
+        row-gap: 10px;
+    }
+
+    textarea {
+        max-width: 265px;
+        min-width: 265px;
+    }
+
+    footer {
+        width: 420px;
+        padding: 10px 25px 10px 25px;
+    }
+
+    footer > div {
+        justify-content: center;
+        column-gap: 50px;
+    }
+
+    footer > p {
+        text-align: center;
+    }
+
+    .logos {
+        display: none;
+    }
 }

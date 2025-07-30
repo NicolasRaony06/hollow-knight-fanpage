@@ -81,6 +81,8 @@ header h2 {
     border-radius: 10px 10px 0 0;
     background-color: rgba(24, 23, 42, 0.8);
     box-shadow: 0 2px 20px 3px rgb(21,65,100);
+    position: sticky;
+    top: 10px;
 }
 
 .nav-main ul {
@@ -178,7 +180,9 @@ main {
     margin-top: 40px;
     background-color: rgba(255, 255, 255, 0.95); 
     border-radius: 8px;
-    justify-content: center; 
+    justify-content: center;
+    position: sticky;
+    top: 10px;
 }
 
 .nav-inter ul {
