@@ -514,10 +514,6 @@ footer > div {
         padding: 0;
     }
 
-    #historia .imagem img{
-        height: auto;
-    }
-
     .nav-horizontal {
         display: none;
     }
@@ -711,14 +707,6 @@ footer > div {
 
     .conteudo ul table {
         width: 100%;
-    }
-
-    #personagens-principais {
-        padding: 0px 5px 0 10px;
-    }
-
-    .personagens-bar {
-        width: 400px;
     }
 
     .inter-section-bar {
