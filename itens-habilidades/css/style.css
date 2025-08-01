@@ -490,3 +490,401 @@ footer > div {
     display: flex;
     width: 100%;
 }
+
+@media (min-width: 1101px){
+    .nav-horizontal {
+        display: none;
+    }
+}
+
+@media (max-width: 1100px){
+    main{
+        column-gap: 20px;
+    }
+
+    .container {
+        width: 680px;
+    }
+
+    section {
+        padding: 0 20px;
+    }
+
+    .conteudo ol {
+        padding: 0;
+    }
+
+    #historia .imagem img{
+        height: auto;
+    }
+
+    .nav-horizontal {
+        display: none;
+    }
+
+    footer {
+        width: 680px;
+        margin-left: 237px;
+
+    }
+
+    .logos {
+        margin-left: 40px;
+        margin-right: 100px;
+    }
+
+}
+
+@media (max-width: 920px) {
+    header{
+        width: 720px;
+        height: 165px;
+    }
+
+    .headerbar {
+        width: 760px;
+    }
+
+    .topico {
+        margin: 0 15% 32px
+    }
+
+    main{
+        column-gap: 20px;
+    }
+
+    .container {
+        max-width: 720px;
+    }
+
+    section{
+        padding: 0 20px;
+    }
+
+    .nav-main {
+        display: none;
+    }
+
+    .nav-inter {
+        top: 48px;
+    }
+
+    .nav-horizontal {
+        display: flex;
+        width: 560px;
+        height: 38px;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+        align-content: center;
+        border-radius: 5px 5px 0 0;
+        background-color: rgba(24, 23, 42, 0.8);
+        box-shadow: 0 1px 10px 1px rgba(21,65,100, 0.2);
+        position: sticky;
+        top: 10px;
+    }
+
+    .nav-horizontal ul {
+        width: 540px;
+        font-size: 1rem;
+        justify-content: center;
+        list-style: none;
+        background-color: rgba(255, 255, 255, 0.95);
+        border-radius: 5px 5px 0 0;
+        border: 0;
+        margin: 0;
+        padding: 5px 5px 5px 5px;
+        column-gap: 10px;
+    }
+
+    .nav-horizontal li {
+        column-gap: 5px;
+    }
+
+    .nav-horizontal a {
+        text-decoration: none;
+        color: black;
+        font-family: "Inter", sans-serif;
+        font-size: 0.8125rem;
+        font-weight: normal;
+    }
+
+    .nav-page-icon {
+        width: 16px;
+    }
+
+    .nav-inter {
+        margin-top: 0;
+        border-radius: 0 0 8px 8px;
+    }
+
+    footer {
+        width: 680px;
+        padding: 10px 25px 10px 25px;
+        margin: 80px auto;
+    }
+
+    footer > div {
+        justify-content: center;
+        column-gap: 100px;
+    }
+
+    .logos {
+        display: none;
+    }
+}
+
+@media (max-width: 720px) {
+    header{
+        width: 530px;
+        height: 165px;
+    }
+
+    header h1 {
+    font-size: 2.275rem; 
+    }
+
+    header h2 {
+        font-size: 1.775rem;
+    }
+
+    header h1, h2 {
+        margin: 0;
+        height: 30px;
+    }
+
+    .page-icon {
+        display: none;
+    }
+
+    .developer-logo {
+        width: 80px;
+    }
+
+    .headerbar {
+        width: 545px;
+    }
+
+    .container {
+        width: 520px;
+    }
+
+    .nav-inter {
+        top: 42px;
+    }
+
+    .nav-horizontal {
+        width: 480px;
+        height: 32px;
+    }
+
+    .nav-horizontal ul {
+        width: 465px;
+        padding: 2px;
+        column-gap: 15px;
+    }
+
+    .nav-horizontal ul img {
+        display: none;
+    }
+
+    .nav-inter {
+        width: 400px;
+        height: 19px;
+    }
+
+    section{
+        padding: 0 20px;
+    }
+
+    .section-bar {
+        width: 470px;
+    }
+
+    .conteudo {
+        margin: 16px;
+    }
+
+    .conteudo ol, .conteudo ul{
+        max-width: 460px;
+    }
+
+    .conteudo ul table {
+        width: 100%;
+    }
+
+    #personagens-principais {
+        padding: 0px 5px 0 10px;
+    }
+
+    .personagens-bar {
+        width: 400px;
+    }
+
+    .inter-section-bar {
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .card {
+        justify-content: flex-start;
+        row-gap: 30px;
+    }
+
+    .card h4 {
+        font-size: 0.725rem;
+    }
+
+    .card img {
+        width: 145px;
+        height: auto;
+    }
+
+    .card div {
+        width: 145px;
+        
+    }
+
+    .card li {
+        width: 115px;
+    }
+
+    footer {
+        width: 520px;
+        padding: 10px 25px 10px 25px;
+    }
+
+    footer > div {
+        justify-content: center;
+        column-gap: 80px;
+    }
+
+    .logos {
+        display: none;
+    }
+}
+
+@media (max-width: 500px){
+    header{
+        width: 420px;
+        height: 165px;
+    }
+
+    header h1 {
+    font-size: 2.275rem; 
+    }
+
+    header h2 {
+        font-size: 1.775rem;
+    }
+
+    header h1, h2 {
+        margin: 0;
+        height: 30px;
+    }
+
+    .page-icon {
+        display: none;
+    }
+
+    .developer-logo {
+        width: 80px;
+    }
+
+    .headerbar {
+        width: 435px;
+    }
+
+    .container {
+        width: 420px;
+        border-radius: 10px;
+    }
+
+    .conteudo {
+        margin: 0;
+    }
+
+    .conteudo ol, .conteudo ul{
+        max-width: 380px;
+    }
+
+    .nav-horizontal {
+        width: 380px;
+        height: 45px;
+    }
+
+    .nav-horizontal ul {
+        width: 360px;
+        text-align: center;
+        align-items: center;
+        padding: 2px 5px;
+        border-radius: 3px 3px 0 0;
+        column-gap: 5px;
+    }
+
+    .nav-horizontal ul img {
+        display: none;
+    }
+
+    .nav-inter {
+        top: 55px;
+        width: 320px;
+        height: 17px;
+    }
+
+    section{
+        padding: 0 20px;
+    }
+
+    .section-bar {
+        width: 400px;
+    }
+
+    .inter-section-bar{
+        width: 350px;
+    }
+
+    .texto .lateral-bar {
+        display: none;
+    }
+
+    .imagem {
+        display: none;
+    }
+
+    .card img {
+        width: 120px;
+        height: auto;
+    }
+
+    .card div {
+        width: 120px; 
+    }
+
+    .card li {
+        width: 93px;
+    }
+
+    .descricao {
+        row-gap: 8px;
+    }
+
+    footer {
+        width: 420px;
+        padding: 10px 25px 10px 25px;
+    }
+
+    footer > div {
+        justify-content: center;
+        column-gap: 50px;
+    }
+
+    footer > p {
+        text-align: center;
+    }
+
+    .logos {
+        display: none;
+    }
+}
