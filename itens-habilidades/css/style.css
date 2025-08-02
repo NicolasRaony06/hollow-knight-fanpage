@@ -203,6 +203,16 @@ main {
     font-weight: normal;
 }
 
+.nav-main a:hover, .nav-inter a:hover, .nav-horizontal a:hover{
+    font-weight: 500;
+}
+
+.nav-main a:hover {
+    background-color: rgb(219, 219, 219);
+    padding: 2px;
+    border-radius: 5px;
+}
+
 section {
     width: 100%;
     padding: 0 35px 0 35px;
