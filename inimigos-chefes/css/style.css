@@ -139,6 +139,16 @@ header h2 {
     object-fit: contain;
 }
 
+.nav-main .active {
+    column-gap: 2px;
+}
+
+.active a {   
+    background-color: rgb(219, 219, 219);
+    padding: 2px 4px;
+    border-radius: 5px;
+}
+
 main {
     margin-top: 50px;
     flex-wrap: wrap;
@@ -202,7 +212,7 @@ main {
     font-weight: normal;
 }
 
-.nav-main a:hover, .nav-inter a:hover, .nav-horizontal a:hover{
+.nav-inter a:hover, .nav-horizontal a:hover{
     font-weight: 500;
 }
 
@@ -210,6 +220,14 @@ main {
     background-color: rgb(219, 219, 219);
     padding: 2px;
     border-radius: 5px;
+}
+
+.nav-main li:nth-child(2) a:hover{
+    padding: 0.5px 4px;
+}
+
+.nav-main li:nth-child(5) a:hover{
+    padding: 2px 4px;
 }
 
 section {
