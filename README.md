@@ -19,3 +19,51 @@ O site está dividido em 5 páginas principais:
 
 ## 📁 Estrutura de Arquivos
 
+hollow-knight-fanpage/
+├── css/
+│ └── style.css # Estilização personalizada do site
+├── img/
+│ └── ... # Imagens utilizadas nas páginas
+├── js/
+│ └── script.js # Scripts adicionais (se necessário)
+├── index.html # Página inicial
+├── mundo.html # Página com história e personagens
+├── itens.html # Página com feitiços, amuletos e habilidades
+├── exploracao.html # Página com regiões e interações
+├── inimigos.html # Página com inimigos e chefes
+└── README.md # Documentação do projeto
+
+
+---
+
+## 💡 Funcionalidades
+
+- Layout responsivo com uso de media queries e Bootstrap
+- Navegação clara com navbar principal e menus internos
+- Cards e tabelas com imagens e informações organizadas
+- Estrutura semântica utilizando elementos como `section`, `article`, `header`, `footer`
+- Destaque de links ativos na navegação
+
+---
+
+## 🎨 Design
+
+- O layout foi previamente elaborado com **Figma**
+- Cores e tipografia foram inspiradas na estética do jogo
+- Componentes reutilizáveis para garantir consistência visual
+
+🔗 [Visualizar wireframe no Figma](https://www.figma.com/design/0wp0fUqoHksAeCDTFkCjrv/WebDesign---Wireframe-Fandom?node-id=0-1&t=OfjX8udqV08OwnxE-0)
+
+---
+
+## 🚀 Como Visualizar
+
+1. Baixe ou clone o repositório:
+
+```bash
+git clone https://github.com/keventapi/webdesign_trabalho_engine.git
+
+⚠️ Aviso Legal
+Este é um projeto educacional sem fins lucrativos.
+Todos os direitos do jogo Hollow Knight pertencem à Team Cherry.
+Imagens, nomes e ícones são utilizados apenas com fins demonstrativos.
