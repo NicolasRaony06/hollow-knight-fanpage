@@ -20,18 +20,16 @@ O site está dividido em 5 páginas principais:
 ## 📁 Estrutura de Arquivos
 
 hollow-knight-fanpage/
-├── css/
-│ └── style.css # Estilização personalizada do site
-├── img/
-│ └── ... # Imagens utilizadas nas páginas
-├── js/
-│ └── script.js # Scripts adicionais (se necessário)
-├── index.html # Página inicial
-├── mundo.html # Página com história e personagens
-├── itens.html # Página com feitiços, amuletos e habilidades
-├── exploracao.html # Página com regiões e interações
-├── inimigos.html # Página com inimigos e chefes
-└── README.md # Documentação do projeto
+- ├── css/
+- │ └── style.css # Estilização personalizada do site
+- ├── img/
+- │ └── ... # Imagens utilizadas nas páginas
+- ├── index.html # Página inicial
+- ├── mundo.html # Página com história e personagens
+- ├── itens.html # Página com feitiços, amuletos e habilidades
+- ├── exploracao.html # Página com regiões e interações
+- ├── inimigos.html # Página com inimigos e chefes
+- └── README.md # Documentação do projeto
 
 
 ---
@@ -61,7 +59,7 @@ hollow-knight-fanpage/
 1. Baixe ou clone o repositório:
 
 ```bash
-git clone https://github.com/keventapi/webdesign_trabalho_engine.git
+git clone https://github.com/NicolasRaony06/hollow-knight-fanpage.git
 
 ⚠️ Aviso Legal
 Este é um projeto educacional sem fins lucrativos.
